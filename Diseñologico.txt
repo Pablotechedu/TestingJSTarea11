@@ -1,0 +1,29 @@
+retoUno
+
+Crea una función colorMessage() que tome 2 argumentos de cadena favoriteColor y shirtColor.
+
+Si el valor de favoriteColor es el mismo que el valor de shirtColor 
+devuelve la cadena 'The shirt is your favorite color!'.
+
+En caso contrario, devuelve la cadena 'That is a nice color.'
+
+retoDos
+
+Crea una función isEven() que tome un número como único parámetro. 
+La función debe devolver un resultado true si el número es par y false si el número es impar.
+
+retoTres
+
+Crea una función numberDigits() que tome la variable x como su único parámetro.
+
+*Si la variable x está entre 0 y 9, devuelve la cadena 'One digit: N' , donde N es el valor de x. Por ejemplo, numberDigits(5) devolvería:
+
+'One digit: 5'
+
+*Si la variable x está entre 10 y 99, devuelve la cadena 'Two digits: N' , donde N es el valor de x. Por ejemplo, numberDigits(12) se generaría:
+
+'Two digits: 12'
+
+*Cualquier otro valor de x, incluidos los números negativos, 
+devuelve la cadena 'The number is: N' , 
+donde N es el valor de x. Por ejemplo, numberDigits(-202) se generaría: 'The number is: -202'
